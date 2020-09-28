@@ -67,17 +67,17 @@ drwxrwxr-x	4	rlk	rlk	4096 时间
 
 文件存储结构大概如下：
 
-![文件存储结构](1.png)
+![文件存储结构](http://github.com/0xC4FED6C7CCCE/Linux_Programming/raw/master/week_2/1.png)
 
 
 
 目录项结构
 
-![目录项](2.png)
+![目录项](http://github.com/0xC4FED6C7CCCE/Linux_Programming/raw/master/week_2/1.png)
 
 
 
 inode结构
 
-![inode结构](3.png)
+![inode结构](http://github.com/0xC4FED6C7CCCE/Linux_Programming/raw/master/week_2/1.png)
 
