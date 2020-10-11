@@ -5,5 +5,5 @@ int main(){
 	printf("%d=hello\n",i);
 }
 
-	return 1000;
+	return 10000;
 }
