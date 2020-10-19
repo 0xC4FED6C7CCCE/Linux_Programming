@@ -12,4 +12,9 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdlib.h>
+#include <time.h>
+void err_exit(char*s){
 
+	printf("Usage : %s is faild\n",s);
+	exit(1);
+}
