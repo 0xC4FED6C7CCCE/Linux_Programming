@@ -11,7 +11,7 @@ int main(){
 	char a[]="abcdefghij";
 	char b[]="0123456789";
 	int fd;
-	if((fd=open("file.hole",O_WRONLY|O_CREAT|O_APPEND,0644))<0)
+	if((fd=open("file.hole",O_WRONLY|O_CREAT,0644))<0)
 		err_exit("Create error!");
 	if(write(fd,a,10)!=10)
 		err_exit("Write error!");
