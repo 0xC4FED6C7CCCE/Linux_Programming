@@ -4,8 +4,6 @@
     > Mail: zhnllion@126.com 
     > Created Time: 2020年10月19日 星期一 21时18分04秒
  ************************************************************************/
-
-#include<stdio.h>
 #include "ch03.h"
 
 int main(int argc,char**argv){
@@ -31,16 +29,14 @@ int main(int argc,char**argv){
 		read(fd,&buf,4);
 		m+=atoi(buf);
 	}
-	printf("account = %d\t m = %d\n",account,m);
+	printf("account = %d\n",account);
 	lseek(fd,n*4,SEEK_SET);
 	read(fd,&buf,4);
 	//第n条记录长度
 	o = atoi(buf);
-	printf("o = %d\n",o);
 	data = (char*)malloc(sizeof(char)*o);	
 	lseek(fd,(account+1)*4+m,SEEK_SET);
-
 	read(fd,data,o);
-	printf("%s\n",data);	
+	printf("date = %s\n",data);	
 	return 0;
 }

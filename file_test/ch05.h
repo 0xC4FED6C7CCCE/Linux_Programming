@@ -1,5 +1,5 @@
 /*************************************************************************
-    > File Name: ch03.h
+    > File Name: ch05.h
     > Author: zll
     > Mail: zhnllion@126.com 
     > Created Time: 2020年10月08日 星期四 11时52分12秒
@@ -12,6 +12,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdlib.h>
+#include <malloc.h>
 void err_exit(char*s){
 
 	printf("Usage : %s is faild\n",s);
