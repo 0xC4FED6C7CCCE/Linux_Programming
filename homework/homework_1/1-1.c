@@ -6,15 +6,18 @@
  ************************************************************************/
 
 #include<stdio.h>
-#include <limits.h>
+#include <math.h>
+#include <unistd.h>
 
 int main()
 {
-    printf("short min=[%d], shor max=[%d]\n",SHRT_MIN,SHRT_MAX);
-    printf("int   min=[%d], int  max=[%d]\n",INT_MIN,INT_MAX);
-    printf("long  min=[%ld], long max=[%ld]\n",LONG_MIN,LONG_MAX);
-
-    /*......*/
+	int	i=0x0;
+	int k,j;
+	k = pow(2,sizeof(short)*8);
+	for(j=0;j<k;j++){
+		printf("%-20x%-20hd%-20hu\n",i,i,i);
+		i++;
+	}
 
     return 0;
 }
