@@ -8,6 +8,7 @@
 #include "myfun.c"
 
 int main(){
+	/*
 	int c;
 	printf("选择操作:\n");
 	printf("1. 插入用户\n");
@@ -29,5 +30,8 @@ int main(){
 			printf("输入1～3\n");
 			break;
 	}
+	*/
+
+	randdat();
 	return 0;
 }

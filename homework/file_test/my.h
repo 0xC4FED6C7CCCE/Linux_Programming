@@ -29,3 +29,4 @@ void sort();
 int getIndex(map*maps,char *s,int count);
 user** getUsers();
 int id_is_exist(int id);
+user *randdat();

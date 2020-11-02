@@ -144,4 +144,16 @@ void sort(){
 	
 }
 
- 
+/*4294967295*/
+
+user *randdat(){
+	int Rand;
+	srand((unsigned)time(NULL));
+	Rand = rand();
+	int id = rand()%4294967295;
+	printf("%d\n",id);
+	char*[]={
+		"135","188","1"
+	}
+	return NULL;
+}
